@@ -1,0 +1,38 @@
+{
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.13",
+    "tsup": "^8.4.0"
+  },
+  "name": "zeke-sdk",
+  "version": "1.0.0",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "peerDependencies": {
+    "typescript": "^5",
+    "axios": "^1.9.0"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0"
+  },
+  "license": "MIT",
+  "author": "sirarifarid",
+  "keywords": [
+    "zeke",
+    "zeke-sdk",
+    "zeke-sdk-js",
+    "zeke-sdk-js-client",
+    "zeke protocol"
+  ],
+  "homepage": "https://github.com/sirarifarid/zeke-sdk",
+  "repository": "https://github.com/sirarifarid/zeke-sdk",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.mts"
+    }
+  }
+}
