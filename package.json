@@ -10,7 +10,8 @@
   "version": "1.0.0",
   "module": "index.ts",
   "type": "module",
-  "private": true,
+  "private": false,
+  "description": "Zeke SDK - A JavaScript SDK for the Zeke Protocol",
   "peerDependencies": {
     "typescript": "^5",
     "axios": "^1.9.0"
